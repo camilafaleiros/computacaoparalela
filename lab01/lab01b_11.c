@@ -33,7 +33,7 @@ int main()
         					{ 4, 4, -4, 4 } };
 
   print_matrix(A);
-  printf("Somar linha\ns");
+  printf("Somar linha\n");
   somar(A);
   print_matrix(A);
 }
