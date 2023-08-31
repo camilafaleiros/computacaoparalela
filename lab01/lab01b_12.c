@@ -17,7 +17,7 @@ void find_char(char A[size])
     }
 
   if (i < size)
-    printf("N: %d", i);
+    printf("N: %d \n", i);
   else
     printf("Não há o caractér desejado na palavra.");
 }
@@ -27,6 +27,6 @@ int main()
   char str[10];
   printf("Digite uma palavra de até 10 caractéres: ");
   scanf("%[^\n]%*c", str);
-  printf("%a \n", str);
+  printf("%s \n", str);
   find_char(str);
 }
