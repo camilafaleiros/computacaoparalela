@@ -22,7 +22,15 @@ int main()
         					{ 3, -3, 3, 3 },
         					{ 4, 4, -4, 4 } };
 
+  printf("Matriz inicial\n");
+  for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++)
+                printf("%d ", A[i][j]);
+        printf("\n");
+  }
+
   mod_matriz(A);
+  printf("Matriz final\n");
   for (int i = 0; i < N; i++) {
 	for (int j = 0; j < N; j++)
 		printf("%d ", A[i][j]);
