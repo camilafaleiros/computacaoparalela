@@ -26,3 +26,6 @@ Prints de execução:
 13. ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/554f3b36-94fe-4731-a251-f642059c2337)
 14. ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/a2d81abb-0bc6-49b5-a6aa-4acde2c7554f)
 
+LAB02:
+O tempo de execução da função Fatorial multiprocessada foi próximo do valor versão serial, com um acréscimo de milisegundos devido aos processos de comunicação e dependências.
+
