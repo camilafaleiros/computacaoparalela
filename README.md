@@ -32,3 +32,10 @@ LAB02:
 
 O tempo de execução da função Fatorial multiprocessada foi próximo do valor versão serial, com um acréscimo de milisegundos devido aos processos de comunicação e dependências.
 
+
+LAB03:
+
+Shared memory - Execução:
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/a027d637-e8d3-41ab-bcb5-2a2b48900323)
+
+
