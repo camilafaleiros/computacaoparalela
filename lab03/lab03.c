@@ -2,6 +2,7 @@
 #include <sys/ipc.h>
 #include <sys/shm.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <sys/wait.h>  //pra evitar condição de corrida
 #include <unistd.h>    //fork
 #include <string.h>    //strcat: função que usamos para concatenar duas strings
@@ -20,11 +21,13 @@ int main() {
       printf("Digite um número para ser lido pelos processos que compartilharão memória: ");
       scanf("%d", &n);
       
+      printf ("Child: %d\n",n);
+      printf("Operação filho: %d * 2 = %d\n", n, (n*2));
+      n = n * 2; 
       char number[20];
       sprintf(number, "%d", n);  // int para string
       strcat(s, number);  // concatena o numero na string
-      
-      printf ("Child: %s\n",shm);
+   
       shmdt(shm);
    }
    else {
@@ -32,6 +35,8 @@ int main() {
       shm = shmat(shmid, 0, 0);
       wait(NULL);
       printf ("Parent: %s\n",shm) ;
+      int n = atoi(shm);
+      printf("Operação pai: %d + 5 = %d", n, (n+5));
       shmdt(shm);
       shmctl(shmid, IPC_RMID, NULL);
    }
