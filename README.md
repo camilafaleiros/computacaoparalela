@@ -37,7 +37,7 @@ LAB03:
 
 Shared memory - Execução:
 
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/0d4ae35c-6675-4b93-8c21-8fda1d17d0ee)
 
-![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/a027d637-e8d3-41ab-bcb5-2a2b48900323)
 
 
