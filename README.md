@@ -39,5 +39,10 @@ Shared memory - Execução:
 
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/0d4ae35c-6675-4b93-8c21-8fda1d17d0ee)
 
+LAB04:
 
+Execução em Serial:
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/9ba4e1d0-03eb-47cc-a735-642b8b233149)
+
+Execução em Paralelo: 
 
