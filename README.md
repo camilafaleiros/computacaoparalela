@@ -45,4 +45,6 @@ Execução em Serial:
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/9ba4e1d0-03eb-47cc-a735-642b8b233149)
 
 Execução em Paralelo: 
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/9e6e0e1c-ecae-4031-904e-ac2a07422f7a)
+
 
