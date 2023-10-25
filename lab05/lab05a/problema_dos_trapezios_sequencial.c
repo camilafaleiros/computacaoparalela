@@ -7,17 +7,17 @@ double f(double x) {
     return exp(x);
 }
 
-double Trap(double a, double b, int n) {
+double Trap(int n, double a, double b) {
     double h = (b - a) / n;
     double result = (f(a) + f(b)) / 2.0;
-    
+
     for (int i = 1; i < n; i++) {
         double x = a + i * h;
         result += f(x);
     }
-    
+
     result *= h;
-    
+
     return result;
 }
 
@@ -27,13 +27,18 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    double a = 0.0;
-    double b = 1.0;
     int n = atoi(argv[1]);
+    double a, b;
+
+    printf("Enter a, b, and n\n");
+    if (scanf("%lf %lf %d", &a, &b, &n) != 3) {
+        printf("Invalid input. Please enter valid values for a, b, and n.\n");
+        return 1;
+    }
 
     clock_t start_time = clock();
 
-    double result = Trap(a, b, n);
+    double result = Trap(n, a, b);
 
     clock_t end_time = clock();
     double execution_time = (double)(end_time - start_time) / CLOCKS_PER_SEC;
@@ -44,4 +49,5 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+
 
