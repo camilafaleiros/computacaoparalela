@@ -6,6 +6,7 @@ Para aprendermos, nós duas criamos arquivos pelo EC2 da AWS. Abaixo temos um pr
 
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/4e14be16-cb8f-4d03-9fbc-207dc8e544ff)
 
+
 LAB01b:
 Dividimos os exercícios igualmente e subimos ao git na pasta lab01, todos os arquivos apresentam o código .c e o executável .out
 Prints de execução:
@@ -26,6 +27,7 @@ Prints de execução:
 13. ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/554f3b36-94fe-4731-a251-f642059c2337)
 14. ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/a2d81abb-0bc6-49b5-a6aa-4acde2c7554f)
 
+
 LAB02:
 
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/ca7cb580-915d-4a3c-9973-ce427029b2e7)
@@ -39,12 +41,31 @@ Shared memory - Execução:
 
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/0d4ae35c-6675-4b93-8c21-8fda1d17d0ee)
 
+
 LAB04:
 
-Execução em Serial:
+Execução Serial:
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/9ba4e1d0-03eb-47cc-a735-642b8b233149)
 
 Execução em Paralelo: 
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/9e6e0e1c-ecae-4031-904e-ac2a07422f7a)
+
+
+LAB05 - Parte 1
+
+Execução Serial:
+
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/35d1a39f-2158-4799-ac7f-271e757a8b01)
+
+Tempo de execução: 0.000036 segundos
+
+
+Execução em Paralelo:
+
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/fffccbff-aba7-4609-85df-51366b9d8a61)
+
+Tempo de execução: 0.00074 segundos
+
+Speedup = 0.000016/0.00074 = 0.02162162162162162162162162162162
 
 
