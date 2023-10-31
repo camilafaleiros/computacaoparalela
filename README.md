@@ -69,3 +69,17 @@ Tempo de execução: 0.00074 segundos
 Speedup = 0.000016/0.00074 = 0.02162162162162162162162162162162
 
 
+LAB05 - Parte 2
+
+Problema dos trapézios:
+
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/746a1595-89b1-456b-af9f-3d634090a233)
+
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/05faca29-5360-487b-babb-9eca27651a37)
+
+Multiplicação de matrizes:
+
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/2c29bc6d-fd5f-4b19-8ca7-b605e792f468)
+
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/390a7475-c985-4ad1-ac01-939f24c4b877)
+
