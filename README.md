@@ -85,4 +85,5 @@ Multiplicação de matrizes:
 
 PROJETO PARALELA V1
 
-![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/bbfe22f0-7771-4739-a8bb-36eb7040bf7a)
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/3fee2f18-354a-4e7d-9d3f-a28e72d5ef5e)
+
