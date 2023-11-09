@@ -83,3 +83,6 @@ Multiplicação de matrizes:
 
 ![image](https://github.com/camilafaleiros/computacaoparalela/assets/93732809/390a7475-c985-4ad1-ac01-939f24c4b877)
 
+PROJETO PARALELA V1
+
+![image](https://github.com/camilafaleiros/computacaoparalela/assets/82233486/bbfe22f0-7771-4739-a8bb-36eb7040bf7a)
